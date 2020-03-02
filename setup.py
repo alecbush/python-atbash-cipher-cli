@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='atbash',
-    version='1.0.0',
+    version='0.1.0',
     packages=['atbash'],
     include_package_data=True,
     license='MIT License',
