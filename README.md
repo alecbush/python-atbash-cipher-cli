@@ -8,5 +8,12 @@ $ pip install .
 
 ## Usage
 ```
-$ python -m atbash "Hello World!"
+$ python -m atbash "Hello, World!"
+```
+
+## Import
+
+```
+>>> import atbash
+>>> atbash.cipher_text("Hello, World!")
 ```
