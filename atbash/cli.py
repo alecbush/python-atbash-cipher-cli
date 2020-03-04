@@ -1,13 +1,13 @@
 import argparse
 
-from . import cipher
+from . import core
 
 
-def run_command_line():
+def main():
     parser = _build_parser()
     args = parser.parse_args()
     if args.text:
-        output = cipher.cipher_text(args.text)
+        output = core.cipher(args.text)
         print(output)
     else:
         parser.print_help()

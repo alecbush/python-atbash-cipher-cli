@@ -1,7 +1,7 @@
 from . import utils
 
 
-def cipher_text(text=''):
+def cipher(text=''):
     return ''.join(
         cipher_char(char) for char in list(str(text))
     )

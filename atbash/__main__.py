@@ -2,7 +2,7 @@ from . import cli
 
 
 def run_cli():
-    cli.run_command_line()
+    cli.main()
 
 
 if __name__ == '__main__':

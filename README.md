@@ -15,5 +15,5 @@ $ python -m atbash "Hello, World!"
 
 ```
 >>> import atbash
->>> atbash.cipher_text("Hello, World!")
+>>> atbash.cipher("Hello, World!")
 ```
