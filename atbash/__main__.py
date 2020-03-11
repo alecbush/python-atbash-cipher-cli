@@ -1,4 +1,4 @@
-from . import cli
+from atbash import cli
 
 
 def run_cli():

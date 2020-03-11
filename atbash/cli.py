@@ -1,6 +1,6 @@
 import argparse
 
-from . import core
+from atbash import core
 
 
 def main():

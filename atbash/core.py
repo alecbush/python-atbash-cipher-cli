@@ -1,4 +1,4 @@
-from . import utils
+from atbash import utils
 
 
 def cipher(text=''):
